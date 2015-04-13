@@ -14,6 +14,7 @@
 		3910755D1ADC551F002FE25B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3910755C1ADC551F002FE25B /* Images.xcassets */; };
 		391075601ADC551F002FE25B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3910755E1ADC551F002FE25B /* LaunchScreen.xib */; };
 		3910756C1ADC551F002FE25B /* HideKeyboardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3910756B1ADC551F002FE25B /* HideKeyboardTests.m */; };
+		3910757D1ADC5AFB002FE25B /* HideKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 3910757C1ADC5AFB002FE25B /* HideKeyboard.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		391075651ADC551F002FE25B /* HideKeyboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HideKeyboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3910756A1ADC551F002FE25B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3910756B1ADC551F002FE25B /* HideKeyboardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HideKeyboardTests.m; sourceTree = "<group>"; };
+		3910757B1ADC5AFB002FE25B /* HideKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HideKeyboard.h; sourceTree = "<group>"; };
+		3910757C1ADC5AFB002FE25B /* HideKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HideKeyboard.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +87,8 @@
 				391075531ADC551F002FE25B /* AppDelegate.h */,
 				391075541ADC551F002FE25B /* AppDelegate.m */,
 				391075561ADC551F002FE25B /* ViewController.h */,
+				3910757B1ADC5AFB002FE25B /* HideKeyboard.h */,
+				3910757C1ADC5AFB002FE25B /* HideKeyboard.m */,
 				391075571ADC551F002FE25B /* ViewController.m */,
 				391075591ADC551F002FE25B /* Main.storyboard */,
 				3910755C1ADC551F002FE25B /* Images.xcassets */,
@@ -222,6 +227,7 @@
 				391075581ADC551F002FE25B /* ViewController.m in Sources */,
 				391075551ADC551F002FE25B /* AppDelegate.m in Sources */,
 				391075521ADC551F002FE25B /* main.m in Sources */,
+				3910757D1ADC5AFB002FE25B /* HideKeyboard.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +422,7 @@
 				391075711ADC551F002FE25B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		391075721ADC551F002FE25B /* Build configuration list for PBXNativeTarget "HideKeyboardTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +431,7 @@
 				391075741ADC551F002FE25B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
